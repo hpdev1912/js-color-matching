@@ -59,7 +59,26 @@
   cursor: pointer;
 }
 
+.game__button_start {
+  display: none;
+  padding: 0.5rem 2.5rem;
+  margin: 0 auto;
+  border: 1px solid green;
+  border-radius: 0.25rem;
+
+  color: white;
+  background-color: green;
+
+  outline: none;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
 .game__button.show {
+  display: inline-block;
+}
+
+.game__button_start.show {
   display: inline-block;
 }
 

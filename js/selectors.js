@@ -10,6 +10,18 @@ export function getPlayAgainButton() {
   return document.querySelector('.game .game__button')
 }
 
+export function getStartGameButton() {
+  return document.querySelector('.game .game__button_start')
+}
+
 export function getColorBackground() {
   return document.querySelector('.color-background')
+}
+
+export function getColorListElement() {
+  return document.getElementById('colorList')
+}
+
+export function getInActiveColorList() {
+  return document.querySelectorAll('#colorList > li:not(.active)')
 }
